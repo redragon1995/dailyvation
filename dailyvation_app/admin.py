@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from dailyvation_app.models import MotivationalPost
+
+admin.site.register(MotivationalPost)
